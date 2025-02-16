@@ -170,5 +170,10 @@
     }
   },
   "active": "eb0407079eba316f",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "__pycache__/test_osdetectory.cpython-313-pytest-8.3.4.pyc",
+    "testenv/lib/python3.13/site-packages/pytest_mock/__pycache__/_util.cpython-313-pytest-8.3.4.pyc",
+    "testenv/lib/python3.13/site-packages/pytest_mock/__pycache__/plugin.cpython-313-pytest-8.3.4.pyc",
+    "testenv/lib/python3.13/site-packages/pytest_mock/__pycache__/__init__.cpython-313-pytest-8.3.4.pyc"
+  ]
 }

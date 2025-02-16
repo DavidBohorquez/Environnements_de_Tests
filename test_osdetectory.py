@@ -12,3 +12,15 @@ def test_obtenir_sys_info(mocker):
         machine='x86_64',
         processor='x86_64'
     )
+
+    expected_result = {
+        'System Type': 'Linux',
+        'Node Name': 'test_node',
+        'Release': '5.4.0-42-generic',
+        'Version': '#46-Ubuntu SMP Fri Jul 10 00:24:02 UTC 2020',
+        'Machine': 'x86_64',
+        'Processor': 'x86_64'
+    }
+
+    result = os_detector.obtenir_sys_info()
+    assert result == expected_result
